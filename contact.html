@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Angel Chaple</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <!-- Navbar -->
+    <nav class="p-6 bg-gray-800">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Angel Chaple</h1>
+            <ul class="flex space-x-6">
+                <li><a href="index.html" class="hover:text-gray-400">Home</a></li>
+                <li><a href="about.html" class="hover:text-gray-400">About</a></li>
+                <li><a href="projects.html" class="hover:text-gray-400">Projects</a></li>
+                <li><a href="contact.html" class="hover:text-gray-400">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="container mx-auto px-6 py-12">
+        <h2 class="text-4xl font-extrabold text-center">Contact Me</h2>
+        <p class="mt-4 text-lg text-center text-gray-400">If you're interested in working with me, feel free to send a message!</p>
+
+        <div class="mt-8 bg-gray-800 p-8 rounded-lg shadow-lg max-w-3xl mx-auto">
+            <form action="#" method="POST">
+                <div class="mb-4">
+                    <label for="name" class="block text-lg font-medium text-gray-200">Name</label>
+                    <input type="text" id="name" name="name" class="w-full mt-2 p-3 bg-gray-700 text-white border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                </div>
+
+                <div class="mb-4">
+                    <label for="email" class="block text-lg font-medium text-gray-200">Email</label>
+                    <input type="email" id="email" name="email" class="w-full mt-2 p-3 bg-gray-700 text-white border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                </div>
+
+                <div class="mb-4">
+                    <label for="message" class="block text-lg font-medium text-gray-200">Message</label>
+                    <textarea id="message" name="message" rows="4" class="w-full mt-2 p-3 bg-gray-700 text-white border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required></textarea>
+                </div>
+
+                <div class="mb-4">
+                    <button type="submit" class="w-full py-3 bg-blue-600 text-white text-lg font-semibold rounded-md hover:bg-blue-700 transition duration-300">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-center text-gray-400 py-4">
+        <p>&copy; 2025 Angel Chaple. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
