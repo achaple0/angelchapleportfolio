@@ -26,7 +26,7 @@ Git & GitHub Pages for hosting
 
 Currently expanding to include Python and Cloud Technologies (Azure)
 
-Projects Highlighted
+Projects (Coming soon)
 
 Command-Line To-Do App: A simple Python-based CLI for task management.
 
