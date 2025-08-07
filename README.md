@@ -1,5 +1,4 @@
 # Hello My Name is Angel
-This is my Personal Portfolio Website:
 
 Welcome to my personal portfolio website! This site showcases my journey, skills, and projects as I grow in the field of technology, with a focus on cloud engineering, systems administration, and programming.
 
